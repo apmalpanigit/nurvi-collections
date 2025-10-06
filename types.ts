@@ -3,7 +3,7 @@ export interface Product {
   name: string;
   price: number;
   description: string;
-  category: 'mens' | 'womens' | 'clothes';
+  category: "mens" | "womens" | "kids";
   imageUrls: string[];
   colors: string[];
   subcategory: string;
