@@ -13,20 +13,5 @@
     "colors": ["#FFFFFF", "#1F2937", "#6B7280"],
     "subcategory": "T-Shirt",
     "material": "Cotton"
-  },
-  {
-    "id": 2,
-    "name": "Women's Floral Dress",
-    "price": 79.99,
-    "description": "A beautiful and elegant floral dress perfect for any summer occasion.",
-    "category": "womens",
-    "imageUrls": [
-      "https://images.unsplash.com/photo-1594653552080-a651910620ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1589132159496-61327c8a3c3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1621992139158-038833951231?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-    ],
-    "colors": ["#FBCFE8", "#A7F3D0", "#BFDBFE"],
-    "subcategory": "Dress",
-    "material": "Rayon"
   }
 ]
