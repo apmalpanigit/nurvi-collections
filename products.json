@@ -187,7 +187,7 @@
     "description": "desc",
     "category": "mens",
     "imageUrls": [
-      "https://drive.google.com/uc?export=view&open?id=1gg8Atfd3zgRtaLtyWw9WYuFr-a9km9Qk"
+      "https://drive.google.com/uc?export=view&id=1gg8Atfd3zgRtaLtyWw9WYuFr-a9km9Qk"
     ],
     "colors": ["#44444"],
     "subcategory": "",
@@ -200,9 +200,9 @@
     "description": "Blue Green",
     "category": "mens",
     "imageUrls": [
-      "https://drive.google.com/uc?export=view&open?id=1opswtzL7PVxtn2u0jEUMEpjGln63UO_A",
-      "https://drive.google.com/uc?export=view&pen?id=18nMXUkNiHpWoSaqv_64FVPI5KE2tIBo0",
-      "https://drive.google.com/uc?export=view&open?id=1govUhB10WcO_BlE8I4rw-Xhrl-aemwKA"
+      "https://drive.google.com/uc?export=view&id=1opswtzL7PVxtn2u0jEUMEpjGln63UO_A",
+      "https://drive.google.com/uc?export=view&id=18nMXUkNiHpWoSaqv_64FVPI5KE2tIBo0",
+      "https://drive.google.com/uc?export=view&id=1govUhB10WcO_BlE8I4rw-Xhrl-aemwKA"
     ],
     "colors": ["#FFFFFF"],
     "subcategory": "Full Shirt",
