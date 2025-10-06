@@ -26,7 +26,7 @@ export const ProductProvider: React.FC<{ children: ReactNode }> = ({
     const fetchProducts = async () => {
       try {
         setLoading(true);
-        const response = await fetch("/products.json");
+        const response = await fetch("/nurvi-collections/products.json");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
