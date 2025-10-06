@@ -10,11 +10,7 @@
       "https://images.unsplash.com/photo-1622470953794-3fc3403a7a93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
     ],
-    "colors": [
-      "#FFFFFF",
-      "#1F2937",
-      "#6B7280"
-    ],
+    "colors": ["#FFFFFF", "#1F2937", "#6B7280"],
     "subcategory": "T-Shirt",
     "material": "Cotton"
   },
@@ -29,11 +25,7 @@
       "https://images.unsplash.com/photo-1589132159496-61327c8a3c3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1621992139158-038833951231?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
     ],
-    "colors": [
-      "#FBCFE8",
-      "#A7F3D0",
-      "#BFDBFE"
-    ],
+    "colors": ["#FBCFE8", "#A7F3D0", "#BFDBFE"],
     "subcategory": "Dress",
     "material": "Rayon"
   },
@@ -48,10 +40,7 @@
       "https://images.unsplash.com/photo-1604244240003-a4c90382f65f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
     ],
-    "colors": [
-      "#3B82F6",
-      "#1F2937"
-    ],
+    "colors": ["#3B82F6", "#1F2937"],
     "subcategory": "Jacket",
     "material": "Denim"
   },
@@ -66,11 +55,7 @@
       "https://images.unsplash.com/photo-1602313534023-a05e2d633355?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1594938384959-45815a5105b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
     ],
-    "colors": [
-      "#D1D5DB",
-      "#9CA3AF",
-      "#4B5563"
-    ],
+    "colors": ["#D1D5DB", "#9CA3AF", "#4B5563"],
     "subcategory": "Pants",
     "material": "Cotton Blend"
   },
@@ -85,11 +70,7 @@
       "https://images.unsplash.com/photo-1604176354204-9268737828e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
     ],
-    "colors": [
-      "#60A5FA",
-      "#93C5FD",
-      "#1E3A8A"
-    ],
+    "colors": ["#60A5FA", "#93C5FD", "#1E3A8A"],
     "subcategory": "Jeans",
     "material": "Denim"
   },
@@ -104,10 +85,7 @@
       "https://images.unsplash.com/photo-1619004847683-b233a01918a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1622554223259-3939683a736d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
     ],
-    "colors": [
-      "#000000",
-      "#A16207"
-    ],
+    "colors": ["#000000", "#A16207"],
     "subcategory": "Accessory",
     "material": "Leather"
   },
@@ -122,11 +100,7 @@
       "https://images.unsplash.com/photo-1561021794-0a3e498c3629?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1528347871625-5272f03d3c90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
     ],
-    "colors": [
-      "#DC2626",
-      "#1D4ED8",
-      "#F59E0B"
-    ],
+    "colors": ["#DC2626", "#1D4ED8", "#F59E0B"],
     "subcategory": "Accessory",
     "material": "Silk"
   },
@@ -141,11 +115,7 @@
       "https://images.unsplash.com/photo-1559697276-c54a5531855a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1484512702322-a251891565d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
     ],
-    "colors": [
-      "#374151",
-      "#78716C",
-      "#166534"
-    ],
+    "colors": ["#374151", "#78716C", "#166534"],
     "subcategory": "Sweater",
     "material": "Wool"
   },
@@ -160,11 +130,7 @@
       "https://images.unsplash.com/photo-1600293499498-831b7117e295?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1583562683833-28c07c3905e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
     ],
-    "colors": [
-      "#F3F4F6",
-      "#FEF3C7",
-      "#FCE7F3"
-    ],
+    "colors": ["#F3F4F6", "#FEF3C7", "#FCE7F3"],
     "subcategory": "Sweater",
     "material": "Knit Blend"
   },
@@ -177,9 +143,7 @@
     "imageUrls": [
       "https://img.tatacliq.com/images/i11/437Wx649H/MP000000017493015_437Wx649H_202305092336261.jpeg"
     ],
-    "colors": [
-      "#00FF00"
-    ],
+    "colors": ["#00FF00"],
     "subcategory": "t shirt men",
     "material": "cotton"
   },
@@ -189,12 +153,8 @@
     "price": 222,
     "description": "jeans desc",
     "category": "womens",
-    "imageUrls": [
-      "google.com"
-    ],
-    "colors": [
-      "#0000"
-    ],
+    "imageUrls": ["google.com"],
+    "colors": ["#0000"],
     "subcategory": "sub category",
     "material": "material"
   },
@@ -204,12 +164,8 @@
     "price": 333,
     "description": "shirt desc",
     "category": "mens",
-    "imageUrls": [
-      "google.com"
-    ],
-    "colors": [
-      "#00000"
-    ],
+    "imageUrls": ["google.com"],
+    "colors": ["#00000"],
     "subcategory": "sub cat",
     "material": ""
   },
@@ -219,12 +175,8 @@
     "price": 44444,
     "description": "desc short",
     "category": "mens",
-    "imageUrls": [
-      ""
-    ],
-    "colors": [
-      "#111111"
-    ],
+    "imageUrls": [""],
+    "colors": ["#111111"],
     "subcategory": "sub ",
     "material": ""
   },
@@ -235,11 +187,9 @@
     "description": "desc",
     "category": "mens",
     "imageUrls": [
-      "https://drive.google.com/open?id=1gg8Atfd3zgRtaLtyWw9WYuFr-a9km9Qk"
+      "https://drive.google.com/uc?export=view&open?id=1gg8Atfd3zgRtaLtyWw9WYuFr-a9km9Qk"
     ],
-    "colors": [
-      "#44444"
-    ],
+    "colors": ["#44444"],
     "subcategory": "",
     "material": ""
   },
@@ -250,13 +200,11 @@
     "description": "Blue Green",
     "category": "mens",
     "imageUrls": [
-      "https://drive.google.com/open?id=1opswtzL7PVxtn2u0jEUMEpjGln63UO_A",
-      "https://drive.google.com/open?id=18nMXUkNiHpWoSaqv_64FVPI5KE2tIBo0",
-      "https://drive.google.com/open?id=1govUhB10WcO_BlE8I4rw-Xhrl-aemwKA"
+      "https://drive.google.com/uc?export=view&open?id=1opswtzL7PVxtn2u0jEUMEpjGln63UO_A",
+      "https://drive.google.com/uc?export=view&pen?id=18nMXUkNiHpWoSaqv_64FVPI5KE2tIBo0",
+      "https://drive.google.com/uc?export=view&open?id=1govUhB10WcO_BlE8I4rw-Xhrl-aemwKA"
     ],
-    "colors": [
-      "#FFFFFF"
-    ],
+    "colors": ["#FFFFFF"],
     "subcategory": "Full Shirt",
     "material": ""
   }
