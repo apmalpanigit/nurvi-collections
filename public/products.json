@@ -15,17 +15,17 @@
     "material": "Cotton"
   },
   {
-    "id": 1,
+    "id": 2,
     "name": "Fancy Saree",
     "price": 1465,
     "description": "Premium Gold crush fabric with multi thread",
     "category": "womens",
     "imageUrls": [
-      "/nurvi-collections/images/1/2-1.jpg",
-      "/nurvi-collections/images/1/2-2.jpg",
-      "/nurvi-collections/images/1/2-3.jpg",
-      "/nurvi-collections/images/1/2-4.jpg",
-      "/nurvi-collections/images/1/2-3.jpg"
+      "/nurvi-collections/images/2/2-1.jpg",
+      "/nurvi-collections/images/2/2-2.jpg",
+      "/nurvi-collections/images/2/2-3.jpg",
+      "/nurvi-collections/images/2/2-4.jpg",
+      "/nurvi-collections/images/2/2-3.jpg"
     ],
     "colors": ["blue", "green", "yellow", "red"],
     "subcategory": "Saree",
