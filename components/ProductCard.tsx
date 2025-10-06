@@ -12,11 +12,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const { addToCart } = useCart();
 
   const handleAddToCart = () => {
-    // Add the product with the first available color by default
     if (product.colors && product.colors.length > 0) {
       addToCart(product, product.colors[0]);
     } else {
-      // Fallback for products without colors, though the data structure implies they exist
       console.warn(
         "Product has no colors, cannot add to cart with color preference."
       );
@@ -26,13 +24,15 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
     <div className="group relative bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
       <Link to={`/product/${product.id}`}>
-        <div className="aspect-w-1 aspect-h-1 bg-gray-200">
+        {/* Fixed image container */}
+        <div className="w-full h-64 bg-gray-200 overflow-hidden rounded-t-lg">
           <img
             src={product.imageUrls[0]}
             alt={product.name}
-            className="w-full h-full object-center object-cover group-hover:opacity-90 transition-opacity"
+            className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
           />
         </div>
+
         <div className="p-4">
           <h3 className="text-lg font-semibold text-gray-800 truncate">
             {product.name}
@@ -42,6 +42,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           </p>
         </div>
       </Link>
+
       <div className="px-4 pb-4 flex items-center justify-between">
         <p className="text-xl font-bold text-gray-900">
           ₹ {product.price.toFixed(2)}

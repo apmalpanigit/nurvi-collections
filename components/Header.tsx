@@ -21,7 +21,7 @@ const Header: React.FC = () => {
           >
             Nurvi <span className="text-indigo-600">Collections</span>
           </Link>
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="flex items-center space-x-4 md:space-x-8">
             <NavLink to="/products/mens" className={navLinkClass}>
               Men's
             </NavLink>
