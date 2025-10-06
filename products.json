@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "name": "Men's Classic Tee",
+    "price": 24.99,
+    "description": "A comfortable and stylish classic t-shirt made from 100% premium cotton.",
+    "category": "mens",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1581655353564-df123a164d2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1622470953794-3fc3403a7a93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+    ],
+    "colors": [
+      "#FFFFFF",
+      "#1F2937",
+      "#6B7280"
+    ],
+    "subcategory": "T-Shirt",
+    "material": "Cotton"
+  },
+  {
+    "id": 2,
+    "name": "Women's Floral Dress",
+    "price": 79.99,
+    "description": "A beautiful and elegant floral dress perfect for any summer occasion.",
+    "category": "womens",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1594653552080-a651910620ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1589132159496-61327c8a3c3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1621992139158-038833951231?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+    ],
+    "colors": [
+      "#FBCFE8",
+      "#A7F3D0",
+      "#BFDBFE"
+    ],
+    "subcategory": "Dress",
+    "material": "Rayon"
+  },
+  {
+    "id": 3,
+    "name": "Unisex Denim Jacket",
+    "price": 119.99,
+    "description": "A timeless denim jacket that adds a cool edge to any outfit. Made with durable, high-quality denim.",
+    "category": "clothes",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1543076499-8f4b0d73c388?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1604244240003-a4c90382f65f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+    ],
+    "colors": [
+      "#3B82F6",
+      "#1F2937"
+    ],
+    "subcategory": "Jacket",
+    "material": "Denim"
+  },
+  {
+    "id": 4,
+    "name": "Men's Slim-Fit Chinos",
+    "price": 64.99,
+    "description": "Versatile slim-fit chinos that can be dressed up or down. Soft, comfortable, with a hint of stretch.",
+    "category": "mens",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1604176424472-17cd740f74e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1602313534023-a05e2d633355?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1594938384959-45815a5105b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+    ],
+    "colors": [
+      "#D1D5DB",
+      "#9CA3AF",
+      "#4B5563"
+    ],
+    "subcategory": "Pants",
+    "material": "Cotton Blend"
+  },
+  {
+    "id": 5,
+    "name": "Women's High-Waist Jeans",
+    "price": 89.99,
+    "description": "Flattering high-waisted jeans with a modern straight-leg cut. Your new favorite pair.",
+    "category": "womens",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1605994282132-8b63a72f05e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1604176354204-9268737828e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+    ],
+    "colors": [
+      "#60A5FA",
+      "#93C5FD",
+      "#1E3A8A"
+    ],
+    "subcategory": "Jeans",
+    "material": "Denim"
+  },
+  {
+    "id": 6,
+    "name": "Men's Leather Belt",
+    "price": 39.99,
+    "description": "A genuine leather belt with a classic silver buckle. An essential accessory for any wardrobe.",
+    "category": "mens",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1542280350-165f1c48e898?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1619004847683-b233a01918a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1622554223259-3939683a736d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+    ],
+    "colors": [
+      "#000000",
+      "#A16207"
+    ],
+    "subcategory": "Accessory",
+    "material": "Leather"
+  },
+  {
+    "id": 7,
+    "name": "Women's Silk Scarf",
+    "price": 49.99,
+    "description": "A luxurious 100% silk scarf with a vibrant, artistic print. Adds a touch of elegance to any look.",
+    "category": "womens",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1561021794-0a3e498c3629?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1528347871625-5272f03d3c90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+    ],
+    "colors": [
+      "#DC2626",
+      "#1D4ED8",
+      "#F59E0B"
+    ],
+    "subcategory": "Accessory",
+    "material": "Silk"
+  },
+  {
+    "id": 8,
+    "name": "Men's Wool Sweater",
+    "price": 99.99,
+    "description": "A cozy and warm sweater crafted from soft merino wool. Perfect for cooler weather.",
+    "category": "mens",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1613589626818-a006c7499d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1559697276-c54a5531855a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1484512702322-a251891565d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+    ],
+    "colors": [
+      "#374151",
+      "#78716C",
+      "#166534"
+    ],
+    "subcategory": "Sweater",
+    "material": "Wool"
+  },
+  {
+    "id": 9,
+    "name": "Women's Cozy Cardigan",
+    "price": 74.99,
+    "description": "A soft, oversized cardigan that feels like a warm hug. Ideal for layering.",
+    "category": "womens",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1576426863848-c21f68c6086f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600293499498-831b7117e295?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1583562683833-28c07c3905e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+    ],
+    "colors": [
+      "#F3F4F6",
+      "#FEF3C7",
+      "#FCE7F3"
+    ],
+    "subcategory": "Sweater",
+    "material": "Knit Blend"
+  },
+  {
+    "id": 1759762685184,
+    "name": "T Shirt",
+    "price": 111,
+    "description": "Green ",
+    "category": "mens",
+    "imageUrls": [
+      "https://img.tatacliq.com/images/i11/437Wx649H/MP000000017493015_437Wx649H_202305092336261.jpeg"
+    ],
+    "colors": [
+      "#00FF00"
+    ],
+    "subcategory": "t shirt men",
+    "material": "cotton"
+  }
+]
