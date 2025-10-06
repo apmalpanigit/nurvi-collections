@@ -13,5 +13,22 @@
     "colors": ["#FFFFFF", "#1F2937", "#6B7280"],
     "subcategory": "T-Shirt",
     "material": "Cotton"
+  },
+  {
+    "id": 1,
+    "name": "Fancy Saree",
+    "price": 1465,
+    "description": "Premium Gold crush fabric with multi thread",
+    "category": "womens",
+    "imageUrls": [
+      "/nurvi-collections/images/1/2-1.jpg",
+      "/nurvi-collections/images/1/2-2.jpg",
+      "/nurvi-collections/images/1/2-3.jpg",
+      "/nurvi-collections/images/1/2-4.jpg",
+      "/nurvi-collections/images/1/2-3.jpg"
+    ],
+    "colors": ["blue", "green", "yellow", "red"],
+    "subcategory": "Saree",
+    "material": "Gold Crush"
   }
 ]
