@@ -182,5 +182,20 @@
     ],
     "subcategory": "t shirt men",
     "material": "cotton"
+  },
+  {
+    "id": 1759764912881,
+    "name": "jeans",
+    "price": 222,
+    "description": "jeans desc",
+    "category": "womens",
+    "imageUrls": [
+      "google.com"
+    ],
+    "colors": [
+      "#0000"
+    ],
+    "subcategory": "sub category",
+    "material": "material"
   }
 ]
