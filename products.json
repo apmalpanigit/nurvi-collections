@@ -184,5 +184,126 @@
     ],
     "subcategory": "Cord set",
     "material": "Cotton"
+  },
+  {
+    "id": 14,
+    "name": "Pure soft Viscose dola Crepe silk fabric chit pallu saree ",
+    "price": 1789,
+    "description": "Pure soft Viscose dola Crepe silk fabric chit pallu saree with flowar zari border pattern and with viscose dola blouse",
+    "category": "womens",
+    "imageUrls": [
+      "/nurvi-collections/images/14/1.jpeg",
+      "/nurvi-collections/images/14/2.jpeg",
+      "/nurvi-collections/images/14/3.jpeg",
+      "/nurvi-collections/images/14/4.jpeg",
+      "/nurvi-collections/images/14/5.jpeg",
+      "/nurvi-collections/images/14/6.jpeg"
+    ],
+    "subcategory": "Saree",
+    "material": "Silk"
+  },
+  {
+    "id": 15,
+    "name": "Paithani Lehenga",
+    "price": 2500,
+    "description": "Paithani Lehenga",
+    "category": "womens",
+    "imageUrls": [
+      "/nurvi-collections/images/15/1.jpeg",
+      "/nurvi-collections/images/15/2.jpeg",
+      "/nurvi-collections/images/15/3.jpeg",
+      "/nurvi-collections/images/15/4.jpeg",
+      "/nurvi-collections/images/15/5.jpeg",
+      "/nurvi-collections/images/15/6.jpeg",
+      "/nurvi-collections/images/15/7.jpeg"
+    ],
+    "subcategory": "Lehenga",
+    "material": "Cotton"
+  },
+  {
+    "id": 16,
+    "name": "Jari Saree",
+    "price": 875,
+    "description": "super dola chex and jari saree with running jequrd blouse",
+    "category": "womens",
+    "imageUrls": [
+      "/nurvi-collections/images/16/1.jpeg",
+      "/nurvi-collections/images/16/2.jpeg",
+      "/nurvi-collections/images/16/3.jpeg",
+      "/nurvi-collections/images/16/4.jpeg",
+      "/nurvi-collections/images/16/5.jpeg",
+      "/nurvi-collections/images/16/6.jpeg",
+      "/nurvi-collections/images/16/7.jpeg"
+    ],
+    "subcategory": "Saree",
+    "material": "Dola"
+  },
+  {
+    "id": 17,
+    "name": "Pure crush silk saree",
+    "price": 1850,
+    "description": "Pure crush silk saree with all over Leheriya embroidery design and cut work design",
+    "category": "womens",
+    "imageUrls": [
+      "/nurvi-collections/images/17/1.jpeg",
+      "/nurvi-collections/images/17/2.jpeg",
+      "/nurvi-collections/images/17/3.jpeg",
+      "/nurvi-collections/images/17/4.jpeg",
+      "/nurvi-collections/images/17/5.jpeg",
+      "/nurvi-collections/images/17/6.jpeg",
+      "/nurvi-collections/images/17/7.jpeg",
+      "/nurvi-collections/images/17/8.jpeg"
+    ],
+    "subcategory": "Saree",
+    "material": "Silk"
+  },
+  {
+    "id": 18,
+    "name": "Heavy Mysore Silk Saree",
+    "price": 949,
+    "description": "Beautiful heavy mysore silk saree with all over weaving and fantastic two tone padding border",
+    "category": "womens",
+    "imageUrls": [
+      "/nurvi-collections/images/18/1.jpeg",
+      "/nurvi-collections/images/18/2.jpeg",
+      "/nurvi-collections/images/18/3.jpeg",
+      "/nurvi-collections/images/18/4.jpeg",
+      "/nurvi-collections/images/18/5.jpeg",
+      "/nurvi-collections/images/18/6.jpeg"
+    ],
+    "subcategory": "Saree",
+    "material": "Silk"
+  },
+  {
+    "id": 19,
+    "name": "Crunchy saree",
+    "price": 1465,
+    "description": "Partywear Soft crunchy  saree with beautiful embroidery white thread work design, Scallop edge work borders with running work blouse",
+    "category": "womens",
+    "imageUrls": [
+      "/nurvi-collections/images/19/1.jpeg",
+      "/nurvi-collections/images/19/2.jpeg",
+      "/nurvi-collections/images/19/3.jpeg",
+      "/nurvi-collections/images/19/4.jpeg",
+      "/nurvi-collections/images/19/5.jpeg",
+      "/nurvi-collections/images/19/6.jpeg",
+      "/nurvi-collections/images/19/7.jpeg"
+    ],
+    "subcategory": "Saree",
+    "material": "Silk"
+  },
+  {
+    "id": 20,
+    "name": "Soft Banarasi Silk floral Print Design Party Wear Saree",
+    "price": 900,
+    "description": "Soft Banarasi Silk floral Print Designe Party Wear Saree. Zari weaving contract pattu with rich self and contrast cow mottif weaving. Soft Banarasi silk sarees, that is high in quality and weaving all over the body with Zari work And majestic contrast floral Designe Print ",
+    "category": "womens",
+    "imageUrls": [
+      "/nurvi-collections/images/20/1.jpeg",
+      "/nurvi-collections/images/20/2.jpeg",
+      "/nurvi-collections/images/20/3.jpeg"
+    ],
+    "subcategory": "Saree",
+    "material": "Silk"
   }
 ]
