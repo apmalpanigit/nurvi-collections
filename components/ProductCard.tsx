@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import type { Product } from "../types";
 import { useCart } from "../context/CartContext";
 import { PlusIcon } from "./Icons";
+import ShareButton from "./ShareButton";
 
 interface ProductCardProps {
   product: Product;
@@ -10,15 +11,13 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const { addToCart } = useCart();
+  const productUrl = `${window.location.origin}/product/${product.id}`;
 
-  const handleAddToCart = () => {
-    addToCart(product);
-  };
+  const handleAddToCart = () => addToCart(product);
 
   return (
     <div className="group relative bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
       <Link to={`/product/${product.id}`}>
-        {/* Fixed image container */}
         <div className="w-full h-64 bg-gray-200 overflow-hidden rounded-t-lg">
           <img
             src={product.imageUrls[0]}
@@ -37,17 +36,24 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         </div>
       </Link>
 
-      <div className="px-4 pb-4 flex items-center justify-between">
+      <div className="px-4 pb-4 flex items-center justify-between gap-3">
         <p className="text-xl font-bold text-gray-900">
           ₹ {product.price.toFixed(2)}
         </p>
-        <button
-          onClick={handleAddToCart}
-          className="inline-flex items-center justify-center p-2 bg-indigo-600 text-white rounded-full shadow-md hover:bg-indigo-700 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-        >
-          <PlusIcon className="h-5 w-5" />
-          <span className="sr-only">Add to cart</span>
-        </button>
+        <div className="flex gap-2">
+          <ShareButton
+            title={product.name}
+            text={`Check out this product: ${product.name}`}
+            url={productUrl}
+          />
+          <button
+            onClick={handleAddToCart}
+            className="inline-flex items-center justify-center p-2 bg-indigo-600 text-white rounded-full shadow-md hover:bg-indigo-700 hover:scale-105 active:scale-95 transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          >
+            <PlusIcon className="h-5 w-5" />
+            <span className="sr-only">Add to cart</span>
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import { useProducts } from "../context/ProductContext";
 import { useCart } from "../context/CartContext";
 import { PlusIcon } from "../components/Icons";
+import ShareButton from "../components/ShareButton";
 
 const ProductDetailPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -10,25 +11,19 @@ const ProductDetailPage: React.FC = () => {
   const { addToCart } = useCart();
 
   const product = products.find((p) => p.id === parseInt(id || "", 10));
-
+  const productUrl = `${window.location.origin}/product/${product?.id}`;
   const [selectedImage, setSelectedImage] = useState<string | undefined>(
     undefined
   );
 
   useEffect(() => {
-    if (product) {
-      setSelectedImage(product.imageUrls[0]);
-    }
+    if (product) setSelectedImage(product.imageUrls[0]);
   }, [product]);
 
-  if (loading) {
+  if (loading)
     return <div className="text-center py-20">Loading product details...</div>;
-  }
-
-  if (error) {
+  if (error)
     return <div className="text-center py-20 text-red-500">{error}</div>;
-  }
-
   if (!product) {
     return (
       <div className="text-center py-20">
@@ -51,7 +46,7 @@ const ProductDetailPage: React.FC = () => {
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden">
       <div className="md:grid md:grid-cols-2">
-        {/* Image Gallery Section */}
+        {/* Image gallery */}
         <div className="p-4 md:p-6">
           <div className="aspect-w-1 aspect-h-1 w-full bg-gray-100 rounded-lg overflow-hidden shadow-inner">
             <img
@@ -85,7 +80,7 @@ const ProductDetailPage: React.FC = () => {
           </div>
         </div>
 
-        {/* Product Details Section */}
+        {/* Product details */}
         <div className="p-8 flex flex-col justify-center">
           <p className="text-sm font-semibold text-indigo-600 uppercase tracking-wide">
             {product.subcategory}
@@ -99,13 +94,20 @@ const ProductDetailPage: React.FC = () => {
             <span className="text-4xl font-extrabold text-gray-900">
               ₹{product.price.toFixed(2)}
             </span>
-            <button
-              onClick={() => addToCart(product)}
-              className="inline-flex items-center gap-2 bg-indigo-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-700 transition-transform hover:scale-105"
-            >
-              <PlusIcon className="h-5 w-5" />
-              <span>Add to Cart</span>
-            </button>
+            <div className="flex gap-3">
+              <ShareButton
+                title={product.name}
+                text={`Check out this product: ${product.name}`}
+                url={productUrl}
+              />
+              <button
+                onClick={() => addToCart(product)}
+                className="inline-flex items-center gap-2 bg-indigo-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-700 hover:scale-105 active:scale-95 transition-transform focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              >
+                <PlusIcon className="h-5 w-5" />
+                <span>Add to Cart</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
