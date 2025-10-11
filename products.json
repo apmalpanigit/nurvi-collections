@@ -305,5 +305,85 @@
     ],
     "subcategory": "Saree",
     "material": "Silk"
+  },
+  {
+    "id": 21,
+    "name": "Backside Meenakari Kundan Set",
+    "price": 1599,
+    "description": "Backside Meenakari Kundan Set",
+    "category": "jewellery",
+    "imageUrls": ["/nurvi-collections/images/21/1.jpeg"],
+    "subcategory": "Kundan Set",
+    "material": "Kundan"
+  },
+  {
+    "id": 22,
+    "name": "Premium Silk Saree (Kalyani Collection)",
+    "price": 1199,
+    "description": "Premium Soft Silk sarees with Beautiful Weaving Zari With Attractive Two Tone Design And Weaving Design Blouse With Tassels in new styles n new look",
+    "category": "womens",
+    "imageUrls": [
+      "/nurvi-collections/images/22/1.jpeg",
+      "/nurvi-collections/images/22/2.jpeg",
+      "/nurvi-collections/images/22/3.jpeg",
+      "/nurvi-collections/images/22/4.jpeg",
+      "/nurvi-collections/images/22/5.jpeg",
+      "/nurvi-collections/images/22/6.jpeg",
+      "/nurvi-collections/images/22/7.jpeg",
+      "/nurvi-collections/images/22/8.jpeg",
+      "/nurvi-collections/images/22/9.jpeg",
+      "/nurvi-collections/images/22/10.jpeg"
+    ],
+    "subcategory": "Saree",
+    "material": "Silk"
+  },
+  {
+    "id": 23,
+    "name": "Gaji Silk Original Bandhani With Gota Embroidery Saree",
+    "price": 1899,
+    "description": "Gaji Silk Original Bandhani With Gota Embroidery Saree, Ek Dani Bandhani With embroidered Work",
+    "category": "womens",
+    "imageUrls": ["/nurvi-collections/images/23/1.jpeg"],
+    "subcategory": "Saree",
+    "material": "Silk"
+  },
+  {
+    "id": 24,
+    "name": "New pure zari woven Banarsi style Saree ",
+    "price": 1785,
+    "description": "Pure chanderi silk sare with zari woven design. Soft fabric very comfortable to wear. Patched stone work lace.Running zari woven blouse.",
+    "category": "womens",
+    "imageUrls": [
+      "/nurvi-collections/images/24/1.jpeg",
+      "/nurvi-collections/images/24/2.jpeg",
+      "/nurvi-collections/images/24/3.jpeg",
+      "/nurvi-collections/images/24/4.jpeg",
+      "/nurvi-collections/images/24/5.jpeg",
+      "/nurvi-collections/images/24/6.jpeg",
+      "/nurvi-collections/images/24/7.jpeg"
+    ],
+    "subcategory": "Saree",
+    "material": "Silk"
+  },
+  {
+    "id": 25,
+    "name": "Kanjivaram Bandhani Saree",
+    "price": 899,
+    "description": "Fabric: Cotton Silk, Blouse: Running, Awesome Heavy Saree With Hand Daing, Work: Hand Daing",
+    "category": "womens",
+    "imageUrls": [
+      "/nurvi-collections/images/25/1.jpeg",
+      "/nurvi-collections/images/25/2.jpeg",
+      "/nurvi-collections/images/25/3.jpeg",
+      "/nurvi-collections/images/25/4.jpeg",
+      "/nurvi-collections/images/25/5.jpeg",
+      "/nurvi-collections/images/25/6.jpeg",
+      "/nurvi-collections/images/25/7.jpeg",
+      "/nurvi-collections/images/25/8.jpeg",
+      "/nurvi-collections/images/25/9.jpeg",
+      "/nurvi-collections/images/25/10.jpeg"
+    ],
+    "subcategory": "Saree",
+    "material": "Cotton Silk"
   }
 ]
