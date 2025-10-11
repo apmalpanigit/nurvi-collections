@@ -14,14 +14,10 @@ const ProductDetailPage: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<string | undefined>(
     undefined
   );
-  const [selectedColor, setSelectedColor] = useState<string | undefined>(
-    undefined
-  );
 
   useEffect(() => {
     if (product) {
       setSelectedImage(product.imageUrls[0]);
-      setSelectedColor(product.colors[0]);
     }
   }, [product]);
 
@@ -47,7 +43,7 @@ const ProductDetailPage: React.FC = () => {
     );
   }
 
-  if (!selectedImage || !selectedColor) {
+  if (!selectedImage) {
     // This will show briefly while the useEffect sets the state
     return <div className="text-center py-20">Initializing...</div>;
   }
@@ -99,32 +95,12 @@ const ProductDetailPage: React.FC = () => {
           </h1>
           <p className="text-gray-600 mt-4 text-lg">{product.description}</p>
 
-          <div className="mt-6">
-            <h3 className="text-sm font-medium text-gray-900">Choose Color</h3>
-            <div className="flex items-center space-x-3 mt-2">
-              {product.colors.map((color, index) => (
-                <button
-                  key={index}
-                  onClick={() => setSelectedColor(color)}
-                  className={`block h-8 w-8 rounded-full border border-gray-300 shadow-sm transition-all duration-200 ${
-                    selectedColor === color
-                      ? "ring-2 ring-offset-2 ring-indigo-500"
-                      : "hover:scale-110"
-                  }`}
-                  style={{ backgroundColor: color }}
-                  title={color}
-                  aria-label={`Select color ${color}`}
-                />
-              ))}
-            </div>
-          </div>
-
           <div className="mt-8 flex items-center justify-between">
             <span className="text-4xl font-extrabold text-gray-900">
               ₹{product.price.toFixed(2)}
             </span>
             <button
-              onClick={() => addToCart(product, selectedColor)}
+              onClick={() => addToCart(product)}
               className="inline-flex items-center gap-2 bg-indigo-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-700 transition-transform hover:scale-105"
             >
               <PlusIcon className="h-5 w-5" />

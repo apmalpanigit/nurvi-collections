@@ -23,28 +23,17 @@ const CartItemRow: React.FC<{ item: CartItem }> = ({ item }) => {
       <div className="ml-4 flex-grow">
         <h3 className="font-semibold text-lg text-gray-800">{item.name}</h3>
         <p className="text-gray-500">₹{item.price.toFixed(2)}</p>
-        <div className="flex items-center mt-2">
-          <span className="text-sm text-gray-500 mr-2">Color:</span>
-          <span
-            className="h-5 w-5 rounded-full border border-gray-300"
-            style={{ backgroundColor: item.selectedColor }}
-          ></span>
-        </div>
       </div>
       <div className="flex items-center gap-2">
         <button
-          onClick={() =>
-            updateQuantity(item.id, item.selectedColor, item.quantity - 1)
-          }
+          onClick={() => updateQuantity(item.id, item.quantity - 1)}
           className="p-1 rounded-full text-gray-500 hover:bg-gray-200"
         >
           <MinusIcon className="h-5 w-5" />
         </button>
         <span className="w-10 text-center font-medium">{item.quantity}</span>
         <button
-          onClick={() =>
-            updateQuantity(item.id, item.selectedColor, item.quantity + 1)
-          }
+          onClick={() => updateQuantity(item.id, item.quantity + 1)}
           className="p-1 rounded-full text-gray-500 hover:bg-gray-200"
         >
           <PlusIcon className="h-5 w-5" />
@@ -55,7 +44,7 @@ const CartItemRow: React.FC<{ item: CartItem }> = ({ item }) => {
       </div>
       <div className="ml-4">
         <button
-          onClick={() => removeFromCart(item.id, item.selectedColor)}
+          onClick={() => removeFromCart(item.id)}
           className="p-2 text-red-500 hover:text-red-700"
         >
           <TrashIcon className="h-5 w-5" />
@@ -69,13 +58,13 @@ const CartPage: React.FC = () => {
   const { cartItems, totalPrice, cartCount } = useCart();
 
   const handleCheckout = () => {
-    const header = `Hello Nurvi-Collections! I'd like to place an order for the following items:\n\n`;
+    const header = `Hello Nurvi-Collections! \n I'd like to place an order for the following items:\n\n`;
     const itemsText = cartItems
       .map(
         (item) =>
-          `- ${item.name} (ID: ${item.id}, Color: ${item.selectedColor}) (x${
-            item.quantity
-          }) - ₹${(item.price * item.quantity).toFixed(2)}`
+          `- ${item.name} (ID: ${item.id}, (x${item.quantity}) - ₹${(
+            item.price * item.quantity
+          ).toFixed(2)}`
       )
       .join("\n");
     const footer = `\n\n*Total: ₹${totalPrice.toFixed(2)}*`;
@@ -108,7 +97,7 @@ const CartPage: React.FC = () => {
       <h1 className="text-3xl font-bold text-gray-900 mb-6">Shopping Cart</h1>
       <div>
         {cartItems.map((item) => (
-          <CartItemRow key={`${item.id}-${item.selectedColor}`} item={item} />
+          <CartItemRow key={`${item.id}`} item={item} />
         ))}
       </div>
       <div className="mt-8 flex flex-col items-end">

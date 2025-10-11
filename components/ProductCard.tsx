@@ -12,13 +12,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const { addToCart } = useCart();
 
   const handleAddToCart = () => {
-    if (product.colors && product.colors.length > 0) {
-      addToCart(product, product.colors[0]);
-    } else {
-      console.warn(
-        "Product has no colors, cannot add to cart with color preference."
-      );
-    }
+    addToCart(product);
   };
 
   return (
