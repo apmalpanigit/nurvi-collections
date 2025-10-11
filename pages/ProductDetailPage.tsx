@@ -90,11 +90,12 @@ const ProductDetailPage: React.FC = () => {
           </h1>
           <p className="text-gray-600 mt-4 text-lg">{product.description}</p>
 
-          <div className="mt-8 flex items-center justify-between">
-            <span className="text-4xl font-extrabold text-gray-900">
+          <div className="mt-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-6">
+            <span className="text-3xl sm:text-4xl font-extrabold text-gray-900">
               ₹{product.price.toFixed(2)}
             </span>
-            <div className="flex gap-3">
+
+            <div className="flex flex-wrap justify-start sm:justify-end gap-3">
               <ShareButton
                 title={product.name}
                 text={`Check out this product: ${product.name}`}
