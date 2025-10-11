@@ -94,5 +94,56 @@
     ],
     "subcategory": "Chaniya choli",
     "material": "Silk"
+  },
+  {
+    "id": 9,
+    "name": "Lehenga Choli",
+    "price": 2300,
+    "description": "Lehenga Choli. Package Contain: Lehenga, Blouse, Dupatta, Drawstring With Zip",
+    "category": "womens",
+    "imageUrls": [
+      "/nurvi-collections/images/9/1.jpeg",
+      "/nurvi-collections/images/9/2.jpeg",
+      "/nurvi-collections/images/9/3.jpeg",
+      "/nurvi-collections/images/9/4.jpeg",
+      "/nurvi-collections/images/9/5.jpeg",
+      "/nurvi-collections/images/9/6.jpeg",
+      "/nurvi-collections/images/9/7.jpeg"
+    ],
+    "subcategory": "Lehenga Choli",
+    "material": "Silk"
+  },
+  {
+    "id": 10,
+    "name": "Premium quality dual tone plated cz pendant set with bracelet earrings and finger ring",
+    "price": 1075,
+    "description": "Premium quality dual tone plated cz pendant set with bracelet earrings and finger ring",
+    "category": "jewellery",
+    "imageUrls": [
+      "/nurvi-collections/images/10/1.jpeg",
+      "/nurvi-collections/images/10/2.jpeg",
+      "/nurvi-collections/images/10/3.jpeg",
+      "/nurvi-collections/images/10/4.jpeg",
+      "/nurvi-collections/images/10/5.jpeg",
+      "/nurvi-collections/images/10/6.jpeg",
+      "/nurvi-collections/images/10/7.jpeg"
+    ],
+    "subcategory": "Bracelet set",
+    "material": "Dual tone plated cz pendant"
+  },
+  {
+    "id": 11,
+    "name": "Designer wear exclusive & comfortable suit in reyon slub cotton fabric top pant with dupatta pair",
+    "price": 1395,
+    "description": "Designer wear exclusive & comfortable suit in reyon slub cotton fabric top pant with dupatta pair",
+    "category": "womens",
+    "imageUrls": [
+      "/nurvi-collections/images/11/1.jpeg",
+      "/nurvi-collections/images/11/2.jpeg",
+      "/nurvi-collections/images/11/3.jpeg",
+      "/nurvi-collections/images/11/4.jpeg"
+    ],
+    "subcategory": "Suit set",
+    "material": "Reyon slub cotton"
   }
 ]
