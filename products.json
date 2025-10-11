@@ -165,5 +165,24 @@
     ],
     "subcategory": "Kurti Pent Dupatta Set",
     "material": "Premium Roman Silk"
+  },
+  {
+    "id": 13,
+    "name": "Fabric cotton flax cord set",
+    "price": 1035,
+    "description": "Full embroided cotton flax cord set",
+    "category": "womens",
+    "imageUrls": [
+      "/nurvi-collections/images/13/1.jpeg",
+      "/nurvi-collections/images/13/2.jpeg",
+      "/nurvi-collections/images/13/3.jpeg",
+      "/nurvi-collections/images/13/4.jpeg",
+      "/nurvi-collections/images/13/5.jpeg",
+      "/nurvi-collections/images/13/6.jpeg",
+      "/nurvi-collections/images/13/7.jpeg",
+      "/nurvi-collections/images/13/8.jpeg"
+    ],
+    "subcategory": "Cord set",
+    "material": "Cotton"
   }
 ]
